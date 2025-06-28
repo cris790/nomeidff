@@ -5,44 +5,32 @@ import re
 
 app = Flask(__name__)
 
+# Caminho para o arquivo de dados (ajuste conforme necessário)
 DATA_FILE = 'api/dados.txt'
 
 @app.route('/namid', methods=['GET'])
 def search_by_name():
+    # Obtém o parâmetro 'name' da query string
     search_term = request.args.get('name')
-    search_type = request.args.get('type', 'contains')  # padrão: contém o termo
 
     if not search_term:
         return jsonify({"error": "Parâmetro 'name' é obrigatório"}), 400
 
     try:
+        # Verifica se o arquivo existe
         if not os.path.exists(DATA_FILE):
             return jsonify({"error": "Arquivo de dados não encontrado"}), 404
 
+        # Lê e parseia o arquivo JSON
         with open(DATA_FILE, 'r', encoding='utf-8') as file:
             data = json.load(file)
 
-        search_term_lower = search_term.lower()
-        results = []
-
-        for item in data:
-            if "name" not in item:
-                continue
-                
-            item_name_lower = item["name"].lower()
-            
-            if search_type == 'exact' and item_name_lower == search_term_lower:
-                results.append({"id": item["id"], "name": item["name"]})
-            elif search_type == 'start' and item_name_lower.startswith(search_term_lower):
-                results.append({"id": item["id"], "name": item["name"]})
-            elif search_type == 'word' and search_term_lower in item_name_lower.split():
-                results.append({"id": item["id"], "name": item["name"]})
-            elif search_type == 'contains' and search_term_lower in item_name_lower:
-                results.append({"id": item["id"], "name": item["name"]})
-            elif search_type == 'regex':
-                pattern = re.compile(rf'\b{re.escape(search_term_lower)}\b')
-                if pattern.search(item_name_lower):
-                    results.append({"id": item["id"], "name": item["name"]})
+        # Filtra os itens usando expressão regular para match exato da palavra
+        results = [
+            {"id": item["id"], "name": item["name"]}
+            for item in data
+            if "name" in item and re.search(rf'\b{re.escape(search_term)}\b', item["name"], flags=re.IGNORECASE)
+        ]
 
         return jsonify(results)
 
@@ -50,3 +38,12 @@ def search_by_name():
         return jsonify({"error": "Formato inválido no arquivo de dados"}), 500
     except Exception as e:
         return jsonify({"error": f"Erro interno: {str(e)}"}), 500
+
+def vercel_handler(request):
+    with app.app_context():
+        response = app.full_dispatch_request()
+        return {
+            'statusCode': response.status_code,
+            'headers': dict(response.headers),
+            'body': response.get_data(as_text=True)
+        }
