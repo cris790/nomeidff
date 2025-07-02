@@ -1125,7 +1125,7 @@
   },
   {
     "id": 101000015,
-    "name": "Kelly \\"
+    "name": "Kelly \"Ventania\""
   },
   {
     "id": 101000016,
@@ -1273,7 +1273,7 @@
   },
   {
     "id": 102000020,
-    "name": "Hayato \\"
+    "name": "Hayato \"Chama Azul\""
   },
   {
     "id": 102000021,
@@ -1297,7 +1297,7 @@
   },
   {
     "id": 102000027,
-    "name": "Andrew \\"
+    "name": "Andrew \"O Destemido\""
   },
   {
     "id": 102000028,
@@ -1353,7 +1353,7 @@
   },
   {
     "id": 102000042,
-    "name": "Alvaro \\"
+    "name": "Alvaro \"Explosão de Nervos\""
   },
   {
     "id": 102000043,
@@ -5713,7 +5713,7 @@
   },
   {
     "id": 203000682,
-    "name": "Kelly \\"
+    "name": "Kelly \"Ventania\""
   },
   {
     "id": 203000683,
@@ -6449,7 +6449,7 @@
   },
   {
     "id": 203000869,
-    "name": "Hayato \\"
+    "name": "Hayato \"Chama Azul\""
   },
   {
     "id": 203000870,
@@ -7101,7 +7101,7 @@
   },
   {
     "id": 203001033,
-    "name": "Andrew \\"
+    "name": "Andrew \"O Destemido\""
   },
   {
     "id": 203001034,
@@ -11989,7 +11989,7 @@
   },
   {
     "id": 204000429,
-    "name": "Kelly \\"
+    "name": "Kelly \"Ventania\""
   },
   {
     "id": 204000430,
@@ -12617,7 +12617,7 @@
   },
   {
     "id": 204000704,
-    "name": "Andrew \\"
+    "name": "Andrew \"O Destemido\""
   },
   {
     "id": 204000714,
@@ -15525,7 +15525,7 @@
   },
   {
     "id": 205000379,
-    "name": "Kelly \\"
+    "name": "Kelly \"Ventania\""
   },
   {
     "id": 205000380,
@@ -15805,7 +15805,7 @@
   },
   {
     "id": 205000513,
-    "name": "Hayato \\"
+    "name": "Hayato \"Chama Azul\""
   },
   {
     "id": 205000514,
@@ -16073,7 +16073,7 @@
   },
   {
     "id": 205000645,
-    "name": "Andrew \\"
+    "name": "Andrew \"O Destemido\""
   },
   {
     "id": 205000646,
@@ -24969,7 +24969,7 @@
   },
   {
     "id": 400000783,
-    "name": "Pacote de Fragmentos da Kelly \\"
+    "name": "Pacote de Fragmentos da Kelly \"Ventania\""
   },
   {
     "id": 400000784,
@@ -26865,7 +26865,7 @@
   },
   {
     "id": 400027133,
-    "name": "Pacote de Fragmentos de Andrew \\"
+    "name": "Pacote de Fragmentos de Andrew \"O Destemido\""
   },
   {
     "id": 400027134,
@@ -31125,23 +31125,23 @@
   },
   {
     "id": 400040011,
-    "name": "Pacote \\"
+    "name": "Pacote \"Aranhaverso\""
   },
   {
     "id": 400040012,
-    "name": "Pacote \\"
+    "name": "Pacote \"Aranhaverso\""
   },
   {
     "id": 400040013,
-    "name": "Pacote \\"
+    "name": "Pacote \"Aranhaverso\""
   },
   {
     "id": 400040014,
-    "name": "Pacote \\"
+    "name": "Pacote \"Aranhaverso\""
   },
   {
     "id": 400040015,
-    "name": "Pacote \\"
+    "name": "Pacote \"Aranhaverso\""
   },
   {
     "id": 400040016,
@@ -35105,7 +35105,7 @@
   },
   {
     "id": 407103714,
-    "name": "Pacote de Arma (Vector) \\\\nBatalha Esmeralda"
+    "name": "Pacote de Arma (Vector) \\nBatalha Esmeralda"
   },
   {
     "id": 407104203,
@@ -38309,7 +38309,7 @@
   },
   {
     "id": 710000573,
-    "name": "Conjunto Especial da Kelly \\"
+    "name": "Conjunto Especial da Kelly \"Ventania\""
   },
   {
     "id": 710000574,
@@ -39161,7 +39161,7 @@
   },
   {
     "id": 710027005,
-    "name": "Conjunto Especial do Andrew \\"
+    "name": "Conjunto Especial do Andrew \"O Destemido\""
   },
   {
     "id": 710027006,
@@ -39329,15 +39329,15 @@
   },
   {
     "id": 710027057,
-    "name": "Conjunto Especial da Kelly \\"
+    "name": "Conjunto Especial da Kelly \"Ventania\""
   },
   {
     "id": 710027058,
-    "name": "Conjunto Especial Hayato \\"
+    "name": "Conjunto Especial Hayato \"Chama Azul\""
   },
   {
     "id": 710027059,
-    "name": "Conjunto Especial do Andrew \\"
+    "name": "Conjunto Especial do Andrew \"O Destemido\""
   },
   {
     "id": 710028001,
@@ -41113,11 +41113,11 @@
   },
   {
     "id": 710039003,
-    "name": "Conjunto Alvaro \\"
+    "name": "Conjunto Alvaro \"Explosão de Nervos\""
   },
   {
     "id": 710039004,
-    "name": "Conjunto Alvaro \\"
+    "name": "Conjunto Alvaro \"Explosão de Nervos\" Fino"
   },
   {
     "id": 710039005,
@@ -43765,7 +43765,7 @@
   },
   {
     "id": 800000024,
-    "name": "Fragmento de Memória (Kelly \\"
+    "name": "Fragmento de Memória (Kelly \"Ventania\")"
   },
   {
     "id": 800000025,
@@ -55725,7 +55725,7 @@
   },
   {
     "id": 904040009,
-    "name": "Mochila - \\"
+    "name": "Mochila - \"Aranhaverso\""
   },
   {
     "id": 904040010,
@@ -56309,7 +56309,7 @@
   },
   {
     "id": 905040004,
-    "name": "Paraquedas - \\"
+    "name": "Paraquedas - \"Aranhaverso\""
   },
   {
     "id": 905041001,
@@ -57741,7 +57741,7 @@
   },
   {
     "id": 907002521,
-    "name": "M4A1 Especial T19: Kelly \\"
+    "name": "M4A1 Especial T19: Kelly \"Ventania\""
   },
   {
     "id": 907002522,
@@ -58809,7 +58809,7 @@
   },
   {
     "id": 907102521,
-    "name": "M4A1 Especial T19: Kelly \\"
+    "name": "M4A1 Especial T19: Kelly \"Ventania\""
   },
   {
     "id": 907102522,
